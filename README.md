@@ -21,3 +21,17 @@ created for learning DevOps principles and practices.
 - TortoiseGit
 - GitHub
 - GitHub Actions
+
+## Project Structure
+
+- app.js: Contains the add function.
+- app.test.js: Contains automated unit tests.
+- package.json: Contains project configuration and test script.
+- README.md: Contains project documentation.
+
+## Example
+
+The add function accepts two numbers and returns their sum.
+
+Example:
+add(5, 3) returns 8.

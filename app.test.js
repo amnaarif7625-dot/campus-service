@@ -10,3 +10,7 @@ test('adds two positive numbers', () => {
 test('adds zero and a negative number', () => {
     assert.equal(add(0, -5), -5);
 });
+
+test('adds decimal numbers', () => {
+    assert.equal(add(2.5, 3.5), 6);
+});
